@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3BF3131CCD33BC00940F92 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3BF3121CCD33BC00940F92 /* Country.swift */; };
 		7ABF94B51CBAB90400F9AF4B /* CountryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABF94B41CBAB90400F9AF4B /* CountryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7ABF94BC1CBAB90400F9AF4B /* CountryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABF94B11CBAB90400F9AF4B /* CountryKit.framework */; };
 		7ABF94C11CBAB90400F9AF4B /* CountryKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF94C01CBAB90400F9AF4B /* CountryKitTests.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A3BF3121CCD33BC00940F92 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		7ABF94B11CBAB90400F9AF4B /* CountryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CountryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABF94B41CBAB90400F9AF4B /* CountryKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryKit.h; sourceTree = "<group>"; };
 		7ABF94B61CBAB90400F9AF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,8 +57,8 @@
 		7ABF94A71CBAB90400F9AF4B = {
 			isa = PBXGroup;
 			children = (
-				7ABF94B31CBAB90400F9AF4B /* CountryKit */,
-				7ABF94BF1CBAB90400F9AF4B /* CountryKitTests */,
+				7ABF94B31CBAB90400F9AF4B /* Source */,
+				7ABF94BF1CBAB90400F9AF4B /* Tests */,
 				7ABF94B21CBAB90400F9AF4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,23 +72,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7ABF94B31CBAB90400F9AF4B /* CountryKit */ = {
+		7ABF94B31CBAB90400F9AF4B /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				7ABF94B41CBAB90400F9AF4B /* CountryKit.h */,
 				7ABF94B61CBAB90400F9AF4B /* Info.plist */,
 				7ABF94CB1CBAB91B00F9AF4B /* CountryKit.swift */,
+				7A3BF3121CCD33BC00940F92 /* Country.swift */,
 			);
-			path = CountryKit;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		7ABF94BF1CBAB90400F9AF4B /* CountryKitTests */ = {
+		7ABF94BF1CBAB90400F9AF4B /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				7ABF94C01CBAB90400F9AF4B /* CountryKitTests.swift */,
 				7ABF94C21CBAB90400F9AF4B /* Info.plist */,
 			);
-			path = CountryKitTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3BF3131CCD33BC00940F92 /* Country.swift in Sources */,
 				7ABF94CC1CBAB91B00F9AF4B /* CountryKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +389,7 @@
 				7ABF94C71CBAB90400F9AF4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ABF94C81CBAB90400F9AF4B /* Build configuration list for PBXNativeTarget "CountryKitTests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +398,7 @@
 				7ABF94CA1CBAB90400F9AF4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
